@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.76" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Registering the demo application using data Table" name="Register the demo application" time="8.541">
+<failure type="java.lang.NullPointerException" message="null value in entry: url=null">
+<![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.angitha.assesment3.HelperClass.openPage(HelperClass.java:22)
+	at com.angitha.assesment3.RegisterStepDefinition.user_launches_the_webpage(RegisterStepDefinition.java:19)
+	at ✽.User launches the webpage(file:///C:/Users/avelayudhan/eclipse_workspace02/com.angithaVelayudhan.TechAssessment3/src/test/resources/Feature/Register.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the webpage.............................................failed
+When User clicks the register...............................................skipped
+And User clicks the gender checkbox.........................................skipped
+And User provides the credentials to register...............................skipped
+And User clicks register button.............................................skipped
+Then Checking for registration..............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
